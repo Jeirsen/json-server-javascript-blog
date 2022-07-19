@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to the new blog",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "likes": 30
+    },
+    {
+      "id": 2,
+      "title": "How to be a Net Ninja",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "likes": 15
+    },
+    {
+      "id": 3,
+      "title": "New Full Stack Course comming soon!",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "likes": 20
+    },
+    {
+      "title": "React Hooks Under The Hood",
+      "body": "Hooks are new React APIs added to React 16.8. They enable React functional components to use React features that were previously only available in React class components. In a nutshell, they are functions that bring the power of React class components to functional components, giving you a cleaner way to combine them.\n\nBefore Hooks, React functional and class components performed distinct functions. Functional components were only used for presentation purposes—to render data to the UI. They could only receive and render props from parent components, which were usually class components. Functional components did not keep track of an internal state and did not know the component lifecycle. Thus, they were referred to as “dumb components.”\n\nClass components, on the other hand, track a component's internal state and enable you to perform operations during each phase by using lifecycle methods. For example, you can fetch data from an external API once a component mounts, update the state due to user interactivity, and unsubscribe from a store once a component unmounts. All of this is possible because a class component keeps track of its internal state and lifecycle. Consequently, class components were—and still are—referred to as “smart components.”",
+      "likes": 0,
+      "id": 4
+    }
+  ],
+  "polls": [
+    {
+      "id": 1,
+      "question": "Do you prefer Vue or React?",
+      "answerA": "Vue",
+      "answerB": "React"
+    }
+  ]
+}
